@@ -1,7 +1,7 @@
 <div class="blog-post fade-in">
   <h2 class="blog-post-title"><%= data.title %></h2>
   <% if(data.date) { %>
-    <p class="blog-post-meta"><span><%= post.date %></span> 
+    <p class="blog-post-meta"><span><%= data.date %></span> 
       <% if(post.author) { %>
         by <%= post.author %>
       <% } %>
@@ -22,3 +22,9 @@
   </div>
   <%= data.body %>
 </div>
+
+<script>
+  let date = document.getElementsByClassName('blog-post-meta');
+  let value = date.getElementsByTagName('span');
+  console.log(`value: ${value}`);
+</script>
