@@ -1,7 +1,7 @@
 <div class="blog-post fade-in">
   <h2 class="blog-post-title"><%= data.title %></h2>
   <% if(data.date) { %>
-    <p class="blog-post-meta"><span><%= data.date %></span> 
+    <p class="blog-post-meta"><span><%= data.date.(getMonth()+1) %></span> 
       <% if(data.author) { %>
         by <%= data.author %>
       <% } %>
