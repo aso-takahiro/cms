@@ -1,7 +1,11 @@
 <div class="blog-post fade-in">
   <h2 class="blog-post-title"><%= data.title %></h2>
   <% if(data.date) { %>
-    <p class="blog-post-meta"><%= data.date %> by <a href="#">Mark</a></p>
+    <p class="blog-post-meta"><span><%= data.date %></span> 
+      <% if(data.author) { %>
+        by <%= data.author %>
+      <% } %>
+    </p>
   <% } %>
   <div class="blog-post-tags pb-4">
     <% if(data.tags) { %>
