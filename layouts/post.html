@@ -2,8 +2,8 @@
   <h2 class="blog-post-title"><%= data.title %></h2>
   <% if(data.date) { %>
     <p class="blog-post-meta"><span><%= data.date %></span> 
-      <% if(post.author) { %>
-        by <%= post.author %>
+      <% if(data.author) { %>
+        by <%= data.author %>
       <% } %>
     </p>
   <% } %>
