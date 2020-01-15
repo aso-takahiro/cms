@@ -15,7 +15,6 @@ var config = {
   types: [
     { name: 'posts', layout: { list: 'post-list', single: 'post' }},
     { name: 'pages', layout: { list: 'page-list', single: 'page' }},
-    { name: 'posts-kl', layout: { list: 'post-list', single: 'post' }},
     { name: 'knowledges', layout: { list: 'page-list', single: 'page' }},
   ],
   onload: function() {
