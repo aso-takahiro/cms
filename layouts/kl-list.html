@@ -1,0 +1,13 @@
+<h1>Knowledges</h1>
+<hr>
+<div class="pages-list fade-in">
+  <% data.pages.forEach(function(kl) { %>
+    <h2>
+      <a href="<%= kl.permalink %>"><%= kl.title %></a>
+    </h2>
+    <% if(kl.excerpt) { %>
+      <p><%= kl.excerpt %></p>
+    <% } %>
+  <% }) %>
+</div>
+
