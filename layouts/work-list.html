@@ -5,9 +5,17 @@
     <h2>
       <a href="<%= work.permalink %>"><%= work.title %></a>
     </h2>
-    <% if(work.tag) { %>
-      <p><%= work.tag %></p>
-    <% } %>
+    <div class="blog-post-tags pb-4">
+      <% if(data.tags) { %>
+        <% data.tags.forEach(function(tag) { %>
+          <% if(tag) { %>
+            <p>
+              <%= tag %>
+            </p>
+          <% } %>
+        <% }) %>
+      <% } %>
+    </div>
     <% if(work.excerpt) { %>
       <p><%= work.excerpt %></p>
     <% } %>
