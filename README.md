@@ -11,15 +11,20 @@
 * Bootstrap
 * StackEdit
   
-ブランチ：gh-pages
+#### ブランチ運用
+* 公開（GitHub Pages）： gh-pages  
+* 公開直前ソース： dev
+* 作業ブランチ： feature/#[issues]
 
-### 初期構造
+### ディレクトリ構造
 ```
 root
 　┣━ css/
 　┃　　┗━ **.css
 　┣━ js/
 　┃　　┗━ **.js
+　┣━ knowledges/
+　┃　　┗━ **.md
 　┣━ layouts/
 　┃　　┗━ **.html
 　┣━ pages/
