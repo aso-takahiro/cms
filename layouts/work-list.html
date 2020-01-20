@@ -5,6 +5,9 @@
     <h2>
       <a href="<%= work.permalink %>"><%= work.title %></a>
     </h2>
+    <% if(work.tag) { %>
+      <p><%= work.tag %></p>
+    <% } %>
     <% if(work.excerpt) { %>
       <p><%= work.excerpt %></p>
     <% } %>
