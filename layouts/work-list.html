@@ -1,23 +1,13 @@
 <h1>Works</h1>
 <hr>
-<div class="blog-posts-list fade-in">
+<div class="pages-list fade-in">
   <% data.works.forEach(function(work) { %>
-    <% if(!work.draft) { %>
-      <div class="blog-post">
-        <a href="<%= post.permalink %>">
-          <h2 class="blog-post-title"><%= work.title %></h2>
-        </a>
-        <% if(work.date) { %>
-          <p class="blog-post-meta"><span><%= work.date %></span> 
-            <% if(work.author) { %>
-              by <%= work.author %>
-            <% } %>
-          </p>
-        <% } %>
-        <% if(work.excerpt) { %>
-          <p><%= work.excerpt %></p>
-        <% } %>
-      </div>
+    <h2>
+      <a href="<%= work.permalink %>"><%= work.title %></a>
+    </h2>
+    <% if(work.excerpt) { %>
+      <p><%= work.excerpt %></p>
     <% } %>
   <% }) %>
 </div>
+
