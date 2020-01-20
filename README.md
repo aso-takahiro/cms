@@ -32,39 +32,41 @@ root
 ```
 
 ## 投稿手順
-### 使用ツール
-<a href="https://stackedit.io/">StackEdit</a>  
-┗ md形式のファイルを簡単にアップすることができる。
+~~### 使用ツール~~  
+~~<a href="https://stackedit.io/">StackEdit</a>  
+┗ md形式のファイルを簡単にアップすることができる。~~
 
-1. リンク先のページがStackEdit
-2. 最上部にある「START WRITING」をクリック
-3. エディターが開く＆テンプレートソースが入っている
-4. いい感じに記入する
-5. 【公開手順】
-6. 右サイドにある「PUBLISH」から該当するアカウントを選択する
+~~1. リンク先のページがStackEdit~~  
+~~2. 最上部にある「START WRITING」をクリック~~  
+~~3. エディターが開く＆テンプレートソースが入っている~~  
+~~4. いい感じに記入する~~  
+~~5. 【公開手順】~~  
+~~6. 右サイドにある「PUBLISH」から該当するアカウントを選択する~~  
 
-【PUBLISH】
-- Blogger
-- Dropbox
-- GitHub
-- GitLab
-- Google Drive
-- WordPress
-- Zendesk
+~~【PUBLISH】~~  
+~~- Blogger~~  
+~~- Dropbox~~  
+~~- GitHub~~  
+~~- GitLab~~  
+~~- Google Drive~~  
+~~- WordPress~~  
+~~- Zendesk~~  
 
-7. フォームの内容を埋める
+~~7. フォームの内容を埋める~~  
 
-| 項目 | 設定内容 |
-|:---|:---|
-|Repository URL |https://github.com/<自分のGitHubアカウント>/<repository名> |
-|File path|記事は「posts」フォルダ内に格納します。被らない任意のファイル名でOK|
-|Branch|GitHub pages を公開するBranchにする |
-|Template |Markdown形式のまま投稿するため「Plain text」|
+~~| 項目 | 設定内容 |~~  
+~~---|:---|~~  
+~~epository URL |https://github.com/<自分のGitHubアカウント~~  
+~~<repository名> |~~  
+~~ile path|記事は「posts」フォルダ内に格納します。被らない任意の ~~  ~~ァイル名でOK|~~  
+~~ranch|GitHub pages を公開するBranchにする |~~  
+~~emplate |Markdown形式のまま投稿するため「Plain text」|~~  
 
-8. OK
+~~8. OK~~
 
-* 画像の件はGooleフォトなので別の方法を考えたい
+~~* 画像の件はGooleフォトなので別の方法を考えたい~~
 
+コミットメッセージなどが滅茶苦茶になるため、StackEditは一旦使用しない。
 
 ### デザインについて
 今回は初期状態からBootstrapが使える「Bootstrap Starter」というテーマを元に作成している。  
