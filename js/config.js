@@ -11,10 +11,11 @@ var config = {
   },
   layoutDirectory: 'layouts',
   errorLayout: 'error',
-  defaultView: 'posts',
+  defaultView: 'about',
   types: [
     { name: 'posts', layout: { list: 'post-list', single: 'post' }},
     { name: 'pages', layout: { list: 'page-list', single: 'page' }},
+    { name: 'works', layout: { list: 'work-list', single: 'work' }},
     { name: 'knowledges', layout: { list: 'kl-list', single: 'kl' }},
   ],
   onload: function() {
