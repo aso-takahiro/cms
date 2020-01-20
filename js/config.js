@@ -16,7 +16,6 @@ var config = {
     { name: 'posts', layout: { list: 'post-list', single: 'post' }},
     { name: 'pages', layout: { list: 'page-list', single: 'page' }},
     { name: 'works', layout: { list: 'work-list', single: 'work' }},
-    { name: 'knowledges', layout: { list: 'kl-list', single: 'kl' }},
   ],
   onload: function() {
     document.getElementById('search').addEventListener('input', function(e) {
