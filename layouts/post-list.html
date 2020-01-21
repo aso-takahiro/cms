@@ -1,19 +1,16 @@
 <h1>Posts</h1>
+<p>この当たりにContactエリアを設けたい</p>
 <hr>
 <div class="blog-posts-list fade-in">
   <% data.posts.forEach(function(post) { %>
     <% if(!post.draft) { %>
       <div class="blog-post">
-        <a href="<%= post.permalink %>">
+        <!-- <a href="<%= post.permalink %>"> -->
           <h2 class="blog-post-title"><%= post.title %></h2>
-        </a>
-        <% if(post.date) { %>
-          <p class="blog-post-meta"><span><%= post.date %></span> 
-            <% if(post.author) { %>
-              by <%= post.author %>
-            <% } %>
-          </p>
-        <% } %>
+        <!-- </a> -->
+        <!-- <% if(post.date) { %>
+          <p class="blog-post-meta"><span><%= post.date %></span></p>
+        <% } %> -->
         <% if(post.excerpt) { %>
           <p><%= post.excerpt %></p>
         <% } %>

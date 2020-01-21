@@ -2,7 +2,7 @@
 layout: post
 title: テスト記事
 excerpt: 一覧に出る抜粋らしい。
-date: 2019-01-07
+date: 2019/01/07
 tags: sample
 author: aso
 ---
