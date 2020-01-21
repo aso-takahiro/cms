@@ -11,7 +11,7 @@ var config = {
   },
   layoutDirectory: 'layouts',
   errorLayout: 'error',
-  defaultView: 'pages/about',
+  defaultView: 'posts',
   types: [
     { name: 'posts', layout: { list: 'post-list', single: 'post' }},
     { name: 'pages', layout: { list: 'page-list', single: 'page' }},
