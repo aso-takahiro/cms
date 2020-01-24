@@ -1,11 +1,11 @@
 <h1>Works</h1>
 <hr>
-<div class="pages-list fade-in">
+<div class="pages__list fade-in">
   <% data.works.forEach(function(work) { %>
     <h2>
       <a href="<%= work.permalink %>"><%= work.title %></a>
     </h2>
-    <div class="blog-post-tags pb-4">
+    <div class="blog__post-tags pb-4">
       <% if(data.tags) { %>
         <% data.tags.forEach(function(tag) { %>
           <% if(tag) { %>
