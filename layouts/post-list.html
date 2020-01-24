@@ -8,12 +8,12 @@
   </ul>
 </nav>
 <hr>
-<div class="blog-posts-list fade-in">
+<div class="blog-posts__list fade-in">
   <% data.posts.forEach(function(post) { %>
     <% if(!post.draft) { %>
-      <div class="blog-post">
+      <div class="blog__post">
         <!-- <a href="<%= post.permalink %>"> -->
-          <h2 class="blog-post-title"><%= post.title %></h2>
+          <h2 class="blog__post-title"><%= post.title %></h2>
         <!-- </a> -->
         <!-- <% if(post.date) { %>
           <p class="blog-post-meta"><span><%= post.date %></span></p>
