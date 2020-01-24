@@ -1,0 +1,86 @@
+@import 'import';
+
+.fab {
+  &::before {
+    font-family: "Font Awesome 5 Free";
+  }
+}
+svg {
+  width: 100% !important;
+}
+// bootstarp styles reset
+.container {
+  max-width: 720px;
+}
+
+.above {
+  border-bottom: 1px solid #eee;
+  margin: 30px 0;
+  padding: 0 0 40px;
+}
+.main {
+  &__ttl {
+    font-family: 'Poppins', serif;
+    font-size: 30px;
+    font-weight: normal;
+    text-align: center;
+  }
+}
+.sub {
+  &__ttl {
+    font-family: 'Poppins', serif;
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+  }
+}
+.avatar {
+  background: #4c4c4c;
+  background: -moz-linear-gradient(-45deg,  #4c4c4c 0%, #595959 12%, #666666 25%, #474747 39%, #2c2c2c 50%, #000000 51%, #111111 60%, #2b2b2b 76%, #1c1c1c 91%, #131313 100%);
+  background: -webkit-linear-gradient(-45deg,  #4c4c4c 0%,#595959 12%,#666666 25%,#474747 39%,#2c2c2c 50%,#000000 51%,#111111 60%,#2b2b2b 76%,#1c1c1c 91%,#131313 100%);
+  background: linear-gradient(135deg,  #4c4c4c 0%,#595959 12%,#666666 25%,#474747 39%,#2c2c2c 50%,#000000 51%,#111111 60%,#2b2b2b 76%,#1c1c1c 91%,#131313 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313',GradientType=1 );
+  border-radius: 100%;
+  margin: 0 auto;
+  padding: 4px;
+  width: 120px;
+  img {
+    background-color: #FFF;
+    border-radius: 100%;
+    padding: 4px;
+    width: 100%;
+  }
+}
+
+.contact {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 35px auto 0;
+  li {
+    margin: 0 10px;
+    text-align: center;
+    width: 35px;
+    a {
+      display: block;
+      svg {
+        // border-radius: 100%;
+      }
+    }
+    &.github {
+      svg {
+        color: #333;
+      }
+    }
+    &.twitter {
+      svg {
+        color: rgba(29, 161, 242, 1);
+      }
+    }
+    &.facebook {
+      svg {
+        color: rgba(59, 89, 152, 1);
+      }
+    }
+  }
+}
