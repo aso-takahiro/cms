@@ -1,0 +1,13 @@
+// 今回のサイトの定義
+// モバイルファースト
+
+$breakpoints: (
+  'pc': 'screen and (min-width: 768px)',
+  'wide': 'screen and (min-width: 768px)',
+) !default;
+
+@mixin mq($breakpoint: pc) {
+  @media #{map-get($breakpoints, $breakpoint)} {
+    @content;
+  }
+}
