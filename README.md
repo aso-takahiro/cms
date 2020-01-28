@@ -1,5 +1,6 @@
 # ブログテンプレート＆knowledgeサイト
-<a href="https://aso-takahiro.github.io/cms/">フロントURL</a>
+<a href="https://aso-takahiro.github.io/cms/">フロントURL</a>  
+👆別タブでは開かないし帰ってこれない
 
 ## 概要
 * SPAでブログサイトを実装することができる、CMS.jsを使用する。
